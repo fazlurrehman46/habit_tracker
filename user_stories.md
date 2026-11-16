@@ -117,3 +117,83 @@ _As a user, I want to see a section for completed habits on the homepage, so tha
 **Notes:**
 - Completed habits should be visually distinguishable from incomplete habits.
 - The completed habits section should be easy to find.
+
+# Exercise 4: Menu User Stories
+
+## User Story 7: Access Menu Options
+
+**Title:**
+_As a user, I want to access a menu with options for configuring my habits, viewing reports, editing my profile, and signing out, so that I can easily navigate to different parts of the app._
+
+**Acceptance Criteria:**
+1. The application should display a menu with options for Habits, Reports, Profile, and Sign Out.
+2. Each menu option should be clearly visible and accessible.
+3. Selecting a menu option should navigate the user to the corresponding section.
+
+**Priority:** High
+
+**Story Points:** 3
+
+**Notes:**
+- The menu should be easy to navigate.
+- All menu options should be accessible to logged-in users.
+
+---
+
+## User Story 8: Navigate to Profile
+
+**Title:**
+_As a user, I want to access my profile from the menu, so that I can view and edit my personal information._
+
+**Acceptance Criteria:**
+1. The menu should provide a Profile option.
+2. Selecting Profile should navigate to the profile page.
+3. The profile page should allow users to view and edit their personal information.
+
+**Priority:** Medium
+
+**Story Points:** 3
+
+**Notes:**
+- The profile page should display the user's registered information.
+- Changes should be reflected in the profile.
+
+---
+
+## User Story 9: Navigate to Habits Page
+
+**Title:**
+_As a user, I want to access the habits page from the menu, so that I can configure and manage my habits._
+
+**Acceptance Criteria:**
+1. The menu should provide a Habits option.
+2. Selecting Habits should navigate to the habits page.
+3. Users should be able to configure and manage their habits from this page.
+
+**Priority:** High
+
+**Story Points:** 3
+
+**Notes:**
+- The habits page should be easy to access.
+- Users should be able to manage their existing habits.
+
+---
+
+## User Story 10: Sign Out from Menu
+
+**Title:**
+_As a user, I want to sign out of my account using an option in the menu, so that I can securely log out when I'm finished using the app._
+
+**Acceptance Criteria:**
+1. The menu should provide a Sign Out option.
+2. Selecting Sign Out should end the current user session.
+3. After signing out, the application should redirect the user to the login page.
+
+**Priority:** High
+
+**Story Points:** 2
+
+**Notes:**
+- User session information should be cleared after logout.
+- The user should need to log in again to access the application.
