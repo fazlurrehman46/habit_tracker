@@ -277,3 +277,63 @@ _As a user, I want my updated name to be displayed in the app's header after I c
 **Notes:**
 - The header should reflect the latest saved profile name.
 - The updated name should be displayed consistently throughout the app.
+
+# Exercise 6: Habits Page User Stories
+
+## User Story 15: Add a New Habit
+
+**Title:**
+_As a user, I want to add new habits on the details configuration page so that I can manage and update my habits as needed._
+
+**Acceptance Criteria:**
+1. The habits configuration page should provide an option to add a new habit.
+2. Users should be able to enter the required details for a new habit.
+3. The newly added habit should appear in the user's habits list.
+
+**Priority:** High
+
+**Story Points:** 5
+
+**Notes:**
+- Users should receive confirmation when a habit is successfully added.
+- Required habit details should be validated.
+
+---
+
+## User Story 16: Delete a Habit
+
+**Title:**
+_As a user, I want to delete existing habits so that I can keep my habits up to date._
+
+**Acceptance Criteria:**
+1. Each existing habit should have a Delete option.
+2. The application should ask for confirmation before deleting a habit.
+3. Once deleted, the habit should no longer appear in the active habits list.
+
+**Priority:** Medium
+
+**Story Points:** 3
+
+**Notes:**
+- Users should not accidentally delete habits.
+- Deleted habits should not appear as active habits.
+
+---
+
+## User Story 17: Personalize a Habit with Color
+
+**Title:**
+_As a user, I want to assign a specific color to each habit to make it personal to me._
+
+**Acceptance Criteria:**
+1. Users should be able to select a color when creating a habit.
+2. Users should be able to change the color of an existing habit.
+3. The selected color should be displayed consistently for that habit throughout the app.
+
+**Priority:** Medium
+
+**Story Points:** 3
+
+**Notes:**
+- Provide multiple color options.
+- The selected color should make each habit easy to identify.
