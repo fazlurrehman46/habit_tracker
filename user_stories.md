@@ -397,3 +397,64 @@ _As a user, I want to see both completed and incomplete habits in my report so t
 **Notes:**
 - Completed and incomplete habits should be visually distinguishable.
 - Both categories should be included in the weekly report.
+
+# Exercise 8: Notifications Page User Stories
+
+## User Story 21: Enable/Disable Notifications
+
+**Title:**
+_As a user, I want to be able to enable or disable notifications for the app, so that I can choose whether or not to receive reminders for my habits._
+
+**Acceptance Criteria:**
+1. The notifications page should provide an option to enable notifications.
+2. Users should be able to disable notifications whenever they want.
+3. When notifications are disabled, the app should stop sending habit reminders.
+
+**Priority:** High
+
+**Story Points:** 3
+
+**Notes:**
+- Notification settings should clearly indicate whether notifications are enabled or disabled.
+- Users should be able to change this setting easily.
+
+---
+
+## User Story 22: Add Habits for Notifications
+
+**Title:**
+_As a user, I want to select specific habits to receive notifications for, so that I only get reminders for the habits I am actively working on._
+
+**Acceptance Criteria:**
+1. The notifications page should display the user's available habits.
+2. Users should be able to select or deselect individual habits for notifications.
+3. Notifications should only be sent for the selected habits.
+
+**Priority:** High
+
+**Story Points:** 5
+
+**Notes:**
+- Users should be able to update their selected habits at any time.
+- Only selected habits should receive reminders.
+
+---
+
+## User Story 23: Set Notification Times
+
+**Title:**
+_As a user, I want to have the option to receive notifications three times a day (morning, afternoon, evening) for all selected habits, so that I get timely reminders throughout the day to complete my habits._
+
+**Acceptance Criteria:**
+1. The notifications page should provide three reminder options: Morning, Afternoon, and Evening.
+2. Users should be able to enable or disable each reminder time.
+3. The app should send reminders at the selected times for all selected habits.
+
+**Priority:** High
+
+**Story Points:** 5
+
+**Notes:**
+- Users should be able to customize their reminder preferences.
+- Notifications should follow the selected morning, afternoon, and evening schedules.
+- Reminder times should respect the user's local time zone.
