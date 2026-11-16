@@ -197,3 +197,83 @@ _As a user, I want to sign out of my account using an option in the menu, so tha
 **Notes:**
 - User session information should be cleared after logout.
 - The user should need to log in again to access the application.
+
+  # Exercise 5: Profile Page User Stories
+
+## User Story 11: View Personal Information
+
+**Title:**
+_As a user, I want to view my saved name, username, age, and country on my profile page, so that I can see the details I provided during registration._
+
+**Acceptance Criteria:**
+1. The profile page should display the user's name.
+2. The profile page should display the user's username, age, and country.
+3. The displayed information should match the details provided during registration.
+
+**Priority:** High
+
+**Story Points:** 3
+
+**Notes:**
+- Personal information should be displayed clearly.
+- Only the logged-in user's information should be displayed.
+
+---
+
+## User Story 12: Edit Personal Information
+
+**Title:**
+_As a user, I want to update my name, username, age, and country on my profile page, so that I can keep my information up to date._
+
+**Acceptance Criteria:**
+1. The profile page should allow users to edit their name, username, age, and country.
+2. Users should be able to modify their existing information.
+3. The application should validate the updated information before accepting changes.
+
+**Priority:** High
+
+**Story Points:** 5
+
+**Notes:**
+- Required fields should not be left empty.
+- Updated information should follow the application's validation rules.
+
+---
+
+## User Story 13: Save Updated Information
+
+**Title:**
+_As a user, I want the changes I make to my profile to be saved, so that my updated details are stored and reflected throughout the app._
+
+**Acceptance Criteria:**
+1. The profile page should provide a Save option.
+2. Selecting Save should store the updated profile information.
+3. The application should display a success message after saving the changes.
+
+**Priority:** High
+
+**Story Points:** 3
+
+**Notes:**
+- Users should receive appropriate feedback if saving fails.
+- Updated details should remain available according to the application's data storage and session rules.
+
+---
+
+## User Story 14: Update Name in Header
+
+**Title:**
+_As a user, I want my updated name to be displayed in the app's header after I change it in the profile, so that my changes are immediately visible._
+
+**Acceptance Criteria:**
+1. The application should retrieve the updated name after the profile is saved.
+2. The app header should display the updated name.
+3. The updated name should appear without requiring the user to log out and log in again.
+
+**Priority:** Medium
+
+**Story Points:** 2
+
+**Notes:**
+- The header should reflect the latest saved profile name.
+- The updated name should be displayed consistently throughout the app.
