@@ -57,3 +57,63 @@ _As a user, I want to receive a message if I enter the wrong username or passwor
 **Notes:**
 - Error messages should be clear and understandable.
 - The application should not reveal sensitive login information in error messages.
+
+# Exercise 3: Homepage User Stories
+
+## User Story 4: View Welcome Message
+
+**Title:**
+_As a user, I want to see a personalized welcome message with my name on the homepage, so that I feel recognized and can confirm I am logged into the correct account._
+
+**Acceptance Criteria:**
+1. The homepage should display a welcome message when the user logs in.
+2. The welcome message should include the user's name.
+3. The welcome message should be visible at the top of the homepage.
+
+**Priority:** High
+
+**Story Points:** 2
+
+**Notes:**
+- The welcome message should be personalized based on the logged-in user's name.
+- The message should be displayed clearly.
+
+---
+
+## User Story 5: Display Weekly Progress
+
+**Title:**
+_As a user, I want to see my daily progress for each habit on the homepage, so that I can easily monitor my progress._
+
+**Acceptance Criteria:**
+1. The homepage should display the user's habits and their daily progress.
+2. Users should be able to view their progress for each day of the week.
+3. The progress information should be updated when users complete their habits.
+
+**Priority:** High
+
+**Story Points:** 5
+
+**Notes:**
+- Progress should be displayed in an easy-to-understand format.
+- Each habit should have its own progress information.
+
+---
+
+## User Story 6: View Completed Habits
+
+**Title:**
+_As a user, I want to see a section for completed habits on the homepage, so that I can track what I have already achieved._
+
+**Acceptance Criteria:**
+1. The homepage should include a separate section for completed habits.
+2. Users should be able to identify which habits have been completed.
+3. Completed habits should be updated when a user marks a habit as complete.
+
+**Priority:** Medium
+
+**Story Points:** 3
+
+**Notes:**
+- Completed habits should be visually distinguishable from incomplete habits.
+- The completed habits section should be easy to find.
