@@ -337,3 +337,63 @@ _As a user, I want to assign a specific color to each habit to make it personal 
 **Notes:**
 - Provide multiple color options.
 - The selected color should make each habit easy to identify.
+
+# Exercise 7: Reports Page User Stories
+
+## User Story 18: View Weekly Reports
+
+**Title:**
+_As a user, I want to see a report of my weekly habit progress so that I can understand how well I am maintaining my habits._
+
+**Acceptance Criteria:**
+1. The reports page should display a weekly summary of habit progress.
+2. Users should be able to view their progress for each day of the week.
+3. The report should reflect the user's recorded habit activity.
+
+**Priority:** High
+
+**Story Points:** 5
+
+**Notes:**
+- Weekly reports should be easy to understand.
+- Progress should be displayed in an organized format.
+
+---
+
+## User Story 19: Visualize Completed Habits
+
+**Title:**
+_As a user, I want to see a chart of my completed habits for each day of the week so that I can quickly identify trends in my progress._
+
+**Acceptance Criteria:**
+1. The reports page should display a chart showing completed habits for each day.
+2. The chart should clearly identify the days of the week.
+3. The chart should update when new habit completion data is recorded.
+
+**Priority:** Medium
+
+**Story Points:** 5
+
+**Notes:**
+- The chart should be visually clear and easy to understand.
+- Users should be able to identify daily progress trends.
+
+---
+
+## User Story 20: View All Habits
+
+**Title:**
+_As a user, I want to see both completed and incomplete habits in my report so that I have a comprehensive view of my habit tracking performance._
+
+**Acceptance Criteria:**
+1. The report should display both completed and incomplete habits.
+2. Users should be able to distinguish completed habits from incomplete habits.
+3. The report should provide an overall view of the user's habit tracking performance.
+
+**Priority:** High
+
+**Story Points:** 3
+
+**Notes:**
+- Completed and incomplete habits should be visually distinguishable.
+- Both categories should be included in the weekly report.
